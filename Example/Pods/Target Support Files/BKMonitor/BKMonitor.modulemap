@@ -1,0 +1,6 @@
+framework module BKMonitor {
+  umbrella header "BKMonitor-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_BKMonitor_Example {
+  umbrella header "Pods-BKMonitor_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

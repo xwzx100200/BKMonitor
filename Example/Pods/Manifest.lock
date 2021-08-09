@@ -1,0 +1,16 @@
+PODS:
+  - BKMonitor (0.1.0)
+
+DEPENDENCIES:
+  - BKMonitor (from `../`)
+
+EXTERNAL SOURCES:
+  BKMonitor:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BKMonitor: 8ef94a65b298e55afd2a3ec7e143dbcd386189cd
+
+PODFILE CHECKSUM: 57e1ae6bc18c301b23ee1d45edb1784fadd617ff
+
+COCOAPODS: 1.9.1

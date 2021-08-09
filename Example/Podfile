@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'BKMonitor_Example' do
+  pod 'BKMonitor', :path => '../'
+
+  target 'BKMonitor_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

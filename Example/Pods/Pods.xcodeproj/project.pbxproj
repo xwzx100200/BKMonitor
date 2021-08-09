@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B8DA2C3BAD77A139A395572E9A0DD0B /* Pods-BKMonitor_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B818927A6D86C68B7BEFED3794434EF /* Pods-BKMonitor_Tests-dummy.m */; };
+		9C6D5E405D0412EC6B31AAFF8DF4458A /* Pods-BKMonitor_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F268FDB927E1EF71148747101B645C /* Pods-BKMonitor_Example-dummy.m */; };
+		9D6852921CAFB0C6FDA9F227FEE3BE6A /* Pods-BKMonitor_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0F149653D51AED3D110B1F5967F90E9 /* Pods-BKMonitor_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9DA0F415F4DC3FD0114EDC3E7EFE280 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B6F09C4B711740D078F2E5D0D382D7BD /* BKMonitorWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D3667025FC4C3D6CC4C319A3160BCF /* BKMonitorWindow.m */; };
+		C7478E39E3C14383A40B9600763E0C32 /* BKMonitor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F46D221C0A9FEAB2AEA6806AE14E538 /* BKMonitor-dummy.m */; };
+		E3E15A35CB52B002DEF0A75D8B11AF1D /* BKMonitorWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B451174956B1949A4924A5E9D9F3F0E6 /* BKMonitorWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6AF66B5CF24B2C266C1D9465007037A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EDC3CA53FC921749A0D221CEE9C6EF40 /* BKMonitor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D29D840605137468410AE3FA4B8999F4 /* BKMonitor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2BB96B89165DCB6E179741AACB851B9 /* Pods-BKMonitor_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB80F83EF0A3124EB1CDCEF8121306E /* Pods-BKMonitor_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE1EA3EF4D900FC955134DACEAA1DBD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B61086FA6E7337F0D6963646F1B5825 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30639D673CE14463B60CFF700425546A;
+			remoteInfo = "Pods-BKMonitor_Example";
+		};
+		A7EA380FD42F5BB3EDC38E3BB3D96524 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7553D1A237B8B7498AE4D19B24233E7D;
+			remoteInfo = BKMonitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01008CBD4C0C9EF9C30DCC174CE9CCE5 /* Pods-BKMonitor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BKMonitor_Tests.modulemap"; sourceTree = "<group>"; };
+		06AE2737BCF719B8D2F9DA1651F92834 /* BKMonitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BKMonitor.release.xcconfig; sourceTree = "<group>"; };
+		1463F18319D802918F10173BBB72883A /* BKMonitor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BKMonitor.modulemap; sourceTree = "<group>"; };
+		14E885CC8C4D088BE49A918E2B02890D /* Pods-BKMonitor_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BKMonitor_Tests-Info.plist"; sourceTree = "<group>"; };
+		15DE9D887286823645EAB03D3F6600C4 /* BKMonitor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BKMonitor-prefix.pch"; sourceTree = "<group>"; };
+		1B818927A6D86C68B7BEFED3794434EF /* Pods-BKMonitor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BKMonitor_Tests-dummy.m"; sourceTree = "<group>"; };
+		1D5483DE24453AF7D6A5CFC5C90AE1BA /* Pods-BKMonitor_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BKMonitor_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1E0B6AFD04ACA5D1377FE2D1D303CEFB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1F46D221C0A9FEAB2AEA6806AE14E538 /* BKMonitor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BKMonitor-dummy.m"; sourceTree = "<group>"; };
+		306260D7BD0E133A52C9F776A38BAA36 /* Pods-BKMonitor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BKMonitor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F6D225BC6855FF38E9F7EB53192ECEC /* Pods-BKMonitor_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BKMonitor_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		40E9B213C96FA9CF7267A75A5E7EBF72 /* Pods_BKMonitor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BKMonitor_Example.framework; path = "Pods-BKMonitor_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42F268FDB927E1EF71148747101B645C /* Pods-BKMonitor_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BKMonitor_Example-dummy.m"; sourceTree = "<group>"; };
+		4A864C7434E1C8566547A2A9093F46D3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6CA68AC17D5FD0E9242D0F1BB4139C07 /* Pods-BKMonitor_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BKMonitor_Example-Info.plist"; sourceTree = "<group>"; };
+		711ED67D05C030D5DD77FEA89075D0DA /* Pods-BKMonitor_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BKMonitor_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		72808028E4CA021DF3A2634BC3FBF9EF /* Pods-BKMonitor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BKMonitor_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		80B4493FB88E9E2C766CFDC6846EFBE7 /* Pods-BKMonitor_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BKMonitor_Example.modulemap"; sourceTree = "<group>"; };
+		810CBC34E4EC0BC3AFD49AE7EBF10955 /* Pods-BKMonitor_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BKMonitor_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A460C4457DE002416098FF6C95B9CFDE /* Pods_BKMonitor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BKMonitor_Tests.framework; path = "Pods-BKMonitor_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0F149653D51AED3D110B1F5967F90E9 /* Pods-BKMonitor_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BKMonitor_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B451174956B1949A4924A5E9D9F3F0E6 /* BKMonitorWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BKMonitorWindow.h; path = BKMonitor/Classes/BKMonitorWindow.h; sourceTree = "<group>"; };
+		C0D3667025FC4C3D6CC4C319A3160BCF /* BKMonitorWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BKMonitorWindow.m; path = BKMonitor/Classes/BKMonitorWindow.m; sourceTree = "<group>"; };
+		C1DAD980C3CCF38671D7E06087CB0EC1 /* Pods-BKMonitor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BKMonitor_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C79C2BFB603F6FF3E005F087EE883999 /* BKMonitor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BKMonitor-Info.plist"; sourceTree = "<group>"; };
+		CD167BC8947DE627DCB413F861946DE0 /* Pods-BKMonitor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BKMonitor_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CFB80F83EF0A3124EB1CDCEF8121306E /* Pods-BKMonitor_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BKMonitor_Example-umbrella.h"; sourceTree = "<group>"; };
+		D29D840605137468410AE3FA4B8999F4 /* BKMonitor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BKMonitor-umbrella.h"; sourceTree = "<group>"; };
+		EA33D765DC49B9C4D95020AEC31E3222 /* BKMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BKMonitor.framework; path = BKMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30A1FEC466AD558162A1664DBB481B8 /* BKMonitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BKMonitor.debug.xcconfig; sourceTree = "<group>"; };
+		FB7E96CB555B0013A26E818102945B91 /* Pods-BKMonitor_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BKMonitor_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC1DE6D0BE77354AB2D0D014DBB0E79B /* BKMonitor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BKMonitor.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB920F848955D8F26211FACB9375F61E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1EA3EF4D900FC955134DACEAA1DBD4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40A1AF6285C2516BFF9DBF3DACBB03F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6AF66B5CF24B2C266C1D9465007037A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3A370C6C9A85B761FF507710C2D03A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DA0F415F4DC3FD0114EDC3E7EFE280 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0347EFA584244EB968EE62DB44EB45D2 /* Pods-BKMonitor_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				01008CBD4C0C9EF9C30DCC174CE9CCE5 /* Pods-BKMonitor_Tests.modulemap */,
+				FB7E96CB555B0013A26E818102945B91 /* Pods-BKMonitor_Tests-acknowledgements.markdown */,
+				3F6D225BC6855FF38E9F7EB53192ECEC /* Pods-BKMonitor_Tests-acknowledgements.plist */,
+				1B818927A6D86C68B7BEFED3794434EF /* Pods-BKMonitor_Tests-dummy.m */,
+				14E885CC8C4D088BE49A918E2B02890D /* Pods-BKMonitor_Tests-Info.plist */,
+				B0F149653D51AED3D110B1F5967F90E9 /* Pods-BKMonitor_Tests-umbrella.h */,
+				306260D7BD0E133A52C9F776A38BAA36 /* Pods-BKMonitor_Tests.debug.xcconfig */,
+				C1DAD980C3CCF38671D7E06087CB0EC1 /* Pods-BKMonitor_Tests.release.xcconfig */,
+			);
+			name = "Pods-BKMonitor_Tests";
+			path = "Target Support Files/Pods-BKMonitor_Tests";
+			sourceTree = "<group>";
+		};
+		03B938CC6DDF0F5040CD788CE5DB4F21 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1463F18319D802918F10173BBB72883A /* BKMonitor.modulemap */,
+				1F46D221C0A9FEAB2AEA6806AE14E538 /* BKMonitor-dummy.m */,
+				C79C2BFB603F6FF3E005F087EE883999 /* BKMonitor-Info.plist */,
+				15DE9D887286823645EAB03D3F6600C4 /* BKMonitor-prefix.pch */,
+				D29D840605137468410AE3FA4B8999F4 /* BKMonitor-umbrella.h */,
+				F30A1FEC466AD558162A1664DBB481B8 /* BKMonitor.debug.xcconfig */,
+				06AE2737BCF719B8D2F9DA1651F92834 /* BKMonitor.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BKMonitor";
+			sourceTree = "<group>";
+		};
+		37DB7DE4DA4C1B63820C0C398830857C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FC1DE6D0BE77354AB2D0D014DBB0E79B /* BKMonitor.podspec */,
+				4A864C7434E1C8566547A2A9093F46D3 /* LICENSE */,
+				1E0B6AFD04ACA5D1377FE2D1D303CEFB /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5CC79E85F9ADA6C6B4F35C15633A16AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA33D765DC49B9C4D95020AEC31E3222 /* BKMonitor.framework */,
+				40E9B213C96FA9CF7267A75A5E7EBF72 /* Pods_BKMonitor_Example.framework */,
+				A460C4457DE002416098FF6C95B9CFDE /* Pods_BKMonitor_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		898F9663C89729B768DD6EC1FD658FC8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC1380BA2BFB1FE7A0DC8A6CA00D367D /* Pods-BKMonitor_Example */,
+				0347EFA584244EB968EE62DB44EB45D2 /* Pods-BKMonitor_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F91892152CCA2C85A8BBECA8D7FB5F30 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5CC79E85F9ADA6C6B4F35C15633A16AD /* Products */,
+				898F9663C89729B768DD6EC1FD658FC8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9B461F84D2C3450329978E98078888B /* BKMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				B451174956B1949A4924A5E9D9F3F0E6 /* BKMonitorWindow.h */,
+				C0D3667025FC4C3D6CC4C319A3160BCF /* BKMonitorWindow.m */,
+				37DB7DE4DA4C1B63820C0C398830857C /* Pod */,
+				03B938CC6DDF0F5040CD788CE5DB4F21 /* Support Files */,
+			);
+			name = BKMonitor;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		DC1380BA2BFB1FE7A0DC8A6CA00D367D /* Pods-BKMonitor_Example */ = {
+			isa = PBXGroup;
+			children = (
+				80B4493FB88E9E2C766CFDC6846EFBE7 /* Pods-BKMonitor_Example.modulemap */,
+				711ED67D05C030D5DD77FEA89075D0DA /* Pods-BKMonitor_Example-acknowledgements.markdown */,
+				1D5483DE24453AF7D6A5CFC5C90AE1BA /* Pods-BKMonitor_Example-acknowledgements.plist */,
+				42F268FDB927E1EF71148747101B645C /* Pods-BKMonitor_Example-dummy.m */,
+				810CBC34E4EC0BC3AFD49AE7EBF10955 /* Pods-BKMonitor_Example-frameworks.sh */,
+				6CA68AC17D5FD0E9242D0F1BB4139C07 /* Pods-BKMonitor_Example-Info.plist */,
+				CFB80F83EF0A3124EB1CDCEF8121306E /* Pods-BKMonitor_Example-umbrella.h */,
+				72808028E4CA021DF3A2634BC3FBF9EF /* Pods-BKMonitor_Example.debug.xcconfig */,
+				CD167BC8947DE627DCB413F861946DE0 /* Pods-BKMonitor_Example.release.xcconfig */,
+			);
+			name = "Pods-BKMonitor_Example";
+			path = "Target Support Files/Pods-BKMonitor_Example";
+			sourceTree = "<group>";
+		};
+		F91892152CCA2C85A8BBECA8D7FB5F30 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9B461F84D2C3450329978E98078888B /* BKMonitor */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0AB61A426FEC7373F92F3A3617D2F166 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC3CA53FC921749A0D221CEE9C6EF40 /* BKMonitor-umbrella.h in Headers */,
+				E3E15A35CB52B002DEF0A75D8B11AF1D /* BKMonitorWindow.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3E6CA5D41A13FAF3B1FCF3417F0E5B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D6852921CAFB0C6FDA9F227FEE3BE6A /* Pods-BKMonitor_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED6F5EE4A57B8C3F69E46BD0508FDAC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2BB96B89165DCB6E179741AACB851B9 /* Pods-BKMonitor_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		012E7A51D16F0E0A25642BC09FBEEE73 /* Pods-BKMonitor_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF0ECCB926DCCF914FECA891F660746F /* Build configuration list for PBXNativeTarget "Pods-BKMonitor_Tests" */;
+			buildPhases = (
+				A3E6CA5D41A13FAF3B1FCF3417F0E5B7 /* Headers */,
+				31FAB5321FF9999953757C55F7D2D71F /* Sources */,
+				D40A1AF6285C2516BFF9DBF3DACBB03F /* Frameworks */,
+				EC3DAF1724F3B89E5AD4AC0A7BE0A3D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8773A1E73078C7F31E6C81C035AA3BAE /* PBXTargetDependency */,
+			);
+			name = "Pods-BKMonitor_Tests";
+			productName = "Pods-BKMonitor_Tests";
+			productReference = A460C4457DE002416098FF6C95B9CFDE /* Pods_BKMonitor_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		30639D673CE14463B60CFF700425546A /* Pods-BKMonitor_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A8A8E95A8EAC7ABD2075B985354C1B3 /* Build configuration list for PBXNativeTarget "Pods-BKMonitor_Example" */;
+			buildPhases = (
+				FED6F5EE4A57B8C3F69E46BD0508FDAC /* Headers */,
+				480565C0B52CD557CB8B51E03E136431 /* Sources */,
+				CB920F848955D8F26211FACB9375F61E /* Frameworks */,
+				EC368451EC2BAE838AE408A157F953D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A5BFBEFDB33092D52EBF9BDCE62722A /* PBXTargetDependency */,
+			);
+			name = "Pods-BKMonitor_Example";
+			productName = "Pods-BKMonitor_Example";
+			productReference = 40E9B213C96FA9CF7267A75A5E7EBF72 /* Pods_BKMonitor_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7553D1A237B8B7498AE4D19B24233E7D /* BKMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 199905A1A476FAEF568E78252CB48882 /* Build configuration list for PBXNativeTarget "BKMonitor" */;
+			buildPhases = (
+				0AB61A426FEC7373F92F3A3617D2F166 /* Headers */,
+				D06CC6994F5286B1C7E7376A73ABA948 /* Sources */,
+				DC3A370C6C9A85B761FF507710C2D03A /* Frameworks */,
+				4E14C66CAB416BF1CD36AB1C1331141A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BKMonitor;
+			productName = BKMonitor;
+			productReference = EA33D765DC49B9C4D95020AEC31E3222 /* BKMonitor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5CC79E85F9ADA6C6B4F35C15633A16AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7553D1A237B8B7498AE4D19B24233E7D /* BKMonitor */,
+				30639D673CE14463B60CFF700425546A /* Pods-BKMonitor_Example */,
+				012E7A51D16F0E0A25642BC09FBEEE73 /* Pods-BKMonitor_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E14C66CAB416BF1CD36AB1C1331141A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC368451EC2BAE838AE408A157F953D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3DAF1724F3B89E5AD4AC0A7BE0A3D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31FAB5321FF9999953757C55F7D2D71F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B8DA2C3BAD77A139A395572E9A0DD0B /* Pods-BKMonitor_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480565C0B52CD557CB8B51E03E136431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C6D5E405D0412EC6B31AAFF8DF4458A /* Pods-BKMonitor_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06CC6994F5286B1C7E7376A73ABA948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7478E39E3C14383A40B9600763E0C32 /* BKMonitor-dummy.m in Sources */,
+				B6F09C4B711740D078F2E5D0D382D7BD /* BKMonitorWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A5BFBEFDB33092D52EBF9BDCE62722A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BKMonitor;
+			target = 7553D1A237B8B7498AE4D19B24233E7D /* BKMonitor */;
+			targetProxy = A7EA380FD42F5BB3EDC38E3BB3D96524 /* PBXContainerItemProxy */;
+		};
+		8773A1E73078C7F31E6C81C035AA3BAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BKMonitor_Example";
+			target = 30639D673CE14463B60CFF700425546A /* Pods-BKMonitor_Example */;
+			targetProxy = 1B61086FA6E7337F0D6963646F1B5825 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		968DA9520DEF5994EB83FB25998E1D31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F30A1FEC466AD558162A1664DBB481B8 /* BKMonitor.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BKMonitor/BKMonitor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BKMonitor/BKMonitor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BKMonitor/BKMonitor.modulemap";
+				PRODUCT_MODULE_NAME = BKMonitor;
+				PRODUCT_NAME = BKMonitor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B21B9D2DF2A3724F79BF99087B5987A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72808028E4CA021DF3A2634BC3FBF9EF /* Pods-BKMonitor_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BKMonitor_Example/Pods-BKMonitor_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BKMonitor_Example/Pods-BKMonitor_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C274B1A602E158D02AA79D113C92FAA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD167BC8947DE627DCB413F861946DE0 /* Pods-BKMonitor_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BKMonitor_Example/Pods-BKMonitor_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BKMonitor_Example/Pods-BKMonitor_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C65273A46BF46A0263F22A0F5BDD394A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1DAD980C3CCF38671D7E06087CB0EC1 /* Pods-BKMonitor_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BKMonitor_Tests/Pods-BKMonitor_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BKMonitor_Tests/Pods-BKMonitor_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E16004B8ABA7C78AB6F956B8D3106145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 306260D7BD0E133A52C9F776A38BAA36 /* Pods-BKMonitor_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BKMonitor_Tests/Pods-BKMonitor_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BKMonitor_Tests/Pods-BKMonitor_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E738EE85F1BF0BD9C55F09C9792C244A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06AE2737BCF719B8D2F9DA1651F92834 /* BKMonitor.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BKMonitor/BKMonitor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BKMonitor/BKMonitor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BKMonitor/BKMonitor.modulemap";
+				PRODUCT_MODULE_NAME = BKMonitor;
+				PRODUCT_NAME = BKMonitor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A8A8E95A8EAC7ABD2075B985354C1B3 /* Build configuration list for PBXNativeTarget "Pods-BKMonitor_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B21B9D2DF2A3724F79BF99087B5987A6 /* Debug */,
+				C274B1A602E158D02AA79D113C92FAA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		199905A1A476FAEF568E78252CB48882 /* Build configuration list for PBXNativeTarget "BKMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				968DA9520DEF5994EB83FB25998E1D31 /* Debug */,
+				E738EE85F1BF0BD9C55F09C9792C244A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF0ECCB926DCCF914FECA891F660746F /* Build configuration list for PBXNativeTarget "Pods-BKMonitor_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16004B8ABA7C78AB6F956B8D3106145 /* Debug */,
+				C65273A46BF46A0263F22A0F5BDD394A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "BKMonitor",
+  "version": "0.1.0",
+  "summary": "A short description of BKMonitor.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xwzx100200@163.com/BKMonitor",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xwzx100200@163.com": "chenbeichang@dcep.net"
+  },
+  "source": {
+    "git": "https://github.com/xwzx100200@163.com/BKMonitor.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "BKMonitor/Classes/**/*"
+}
