@@ -46,6 +46,11 @@ static BKContentWindow *contentWindow = nil;
 - (void)setIsShow:(BOOL)isShow {
     _isShow = isShow;
     self.hidden = !isShow;
+    if (isShow) {
+        UINavigationController *navi = (UINavigationController *)self.rootViewController;
+        BKLogViewController* logVC = navi.viewControllers.firstObject;
+        [logVC reloadData];
+    }
 }
 
 @end

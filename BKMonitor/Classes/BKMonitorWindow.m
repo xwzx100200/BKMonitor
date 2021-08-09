@@ -7,12 +7,8 @@
 
 #import "BKMonitorWindow.h"
 #import "BKContentWindow.h"
+#import "BKMonitorMarcos.h"
 
-#define kIsIPhoneX ([[UIScreen mainScreen] nativeBounds].size.height >= 2436.0)
-#define kTopMargin (kIsIPhoneX ? 88.0 : 64.0)
-#define kBottomMargin (kIsIPhoneX ? 83.0 : 49.0)
-#define kTopHeight (kIsIPhoneX ? 44:20) //顶部状态栏高度
-#define kBottomHeight (kIsIPhoneX ? 34: 0)
 #define kHiddenProportion 0.14545455
 
 @implementation BKMonitorWindow
